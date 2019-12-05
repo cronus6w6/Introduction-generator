@@ -1,0 +1,6 @@
+#block-container>* {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    backface-visibility: hidden;
+}
