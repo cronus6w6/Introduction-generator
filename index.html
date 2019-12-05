@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="panel.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
     <title>介紹產生器</title>
 </head>
-<link rel="stylesheet" href="index.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="index.js"></script>
 
 <body>
-    <input type="checkbox" id="panel-toggle">
+    <div id="block-container"></div>
+    <input type="checkbox" id="panel-toggle" checked>
     <div id="panel-container">
         <label id="panel-display-switch" for="panel-toggle">
             設定
         </label>
-        <div id="panel">
-        </div>
+        <div id="panel"></div>
     </div>
 </body>
 
