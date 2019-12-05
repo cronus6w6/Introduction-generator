@@ -1,0 +1,44 @@
+#panel-toggle {
+    display: none;
+}
+
+#panel-toggle:checked+div {
+    right: calc(-20rem - 20px);
+}
+
+#panel-container {
+    position: absolute;
+    right: -20px;
+    bottom: 5vh;
+    transition: right .5s;
+}
+
+#panel {
+    width: 20rem;
+    height: 55vh;
+    background: rgb(209, 209, 209);
+    filter: blur();
+    padding-right: 20px;
+    border-radius: 20px;
+    overflow-y: auto;
+    overflow-x: visible;
+    box-shadow: 1px 1px 3px 3px black;
+}
+
+#panel-display-switch {
+    position: absolute;
+    font-family: "微軟正黑體";
+    height: 90px;
+    width: 40px;
+    background: rgb(209, 209, 209);
+    color: black;
+    bottom: 30px;
+    left: -40px;
+    display: block;
+    writing-mode: vertical-lr;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    border-radius: 20px;
+}
