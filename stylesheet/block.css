@@ -1,6 +1,17 @@
 #block-container>* {
     width: 100vw;
     height: 100vh;
-    position: fixed;
     backface-visibility: hidden;
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    line-height: 100vh;
+    position: fixed;
 }
+
+
+/* #block-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+} */
